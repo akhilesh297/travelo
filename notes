@@ -1,0 +1,13 @@
+Selector:
+id,class,tag,attribute,universal
+psuedo class psuedo elements
+
+psuedo class:
+:hover,:active,:focus,:first-child,:last-child,:nth-child()
+
+
+Padding in bootstrap:
+p{l,r,t,b,x,y}-{0-5}
+
+Margin in bootstrap:
+p{l,r,t,b,x,y}-{0-5,auto}
