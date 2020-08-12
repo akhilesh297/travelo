@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 .active>a {
     background-color: white;
@@ -33,14 +34,14 @@
     background-color: #FF4A52;
 }
 
-.search>a {
+.search>span {
     font-size: 20px;
     color: white;
 }
 
 .search-box {
     position: absolute;
-    z-index: 1;
+    z-index: 99;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
@@ -56,4 +57,26 @@
 .search-box input {
     font-size: 50px;
     border-radius: 10px 0px 0px 10px !important;
+}
+
+.search-close {
+    font-size: 50px;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.search-close:hover {
+    cursor: pointer;
+}
+
+.carousel-caption {
+    bottom: 200px;
+}
+
+.carousel-caption>h5 {
+    font-size: 100px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 600;
 }
