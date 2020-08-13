@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
 
+
+:root {
+    --primary: #009688;
+    --secondary: #FF4A52;
+}
+
+
+/* navigation bar start */
 .active>a {
     background-color: white;
-    color: #009688 !important;
+    color: var(--primary) !important;
 }
 
 .nav-item>a:hover {
     background-color: white;
-    color: #009688 !important;
+    color: var(--primary) !important;
 }
 
 
@@ -27,11 +36,11 @@
 
 .phone {
     transform: rotateY(180deg);
-    color: #FF4A52;
+    color: var(--secondary);
 }
 
 .search {
-    background-color: #FF4A52;
+    background-color: var(--secondary);
 }
 
 .search>span {
@@ -71,6 +80,11 @@
     cursor: pointer;
 }
 
+/* navigation bar end */
+
+
+/* carousel start*/
+
 .carousel-caption {
     bottom: 200px;
 }
@@ -79,4 +93,67 @@
     font-size: 100px;
     font-family: 'Nothing You Could Do', cursive;
     font-weight: 600;
+}
+
+/* carousel end*/
+
+/* about us start */
+#about>h1 {
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-text>div {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* about us end */
+
+/* places start */
+#places>h1 {
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.price-tag {
+    position: absolute;
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    top: 10px;
+    left: 10px;
+
+}
+
+#places a {
+    background-color: var(--secondary);
+}
+
+/* places end */
+
+/* display video */
+.display-video {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.video-text {
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 600;
+}
+
+.play-button {
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary);
 }
