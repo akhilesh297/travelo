@@ -8,4 +8,17 @@ $(document).ready(function () {
     $('.search-close').click(function () {
         $(".search-box").hide()
     })
+
+    $(".video").hide()
+
+    $('.play-button').click(function () {
+        $(".video").show()
+    })
+
+    $('.video-close').click(function () {
+        $(".video").hide()
+    })
+
+
+
 })
