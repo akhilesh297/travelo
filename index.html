@@ -7,7 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <script src="js/jQuery.js"></script>
+    <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/all.min.js"></script>
@@ -33,7 +36,7 @@
         </div>
     </div>
 
-    <a href="#header" class="to-top text-white">
+    <a href="#header" class="to-top text-white d-none">
         <div class="row m-0 justify-content-center align-items-center  h-100">
             <div class="">
                 <i class="fas fa-arrow-up"></i>
@@ -192,7 +195,7 @@
         </p>
         <div class="container">
             <div class="row justify-content-center justify-content-md-around ">
-                <div class="card mt-4">
+                <div class="card mt-4 hvr-bob">
                     <img src="images/1.png" class="card-img-top" alt="...">
                     <div class="price-tag rounded-pill text-center small">
                         <i class="fas fa-rupee-sign"></i>
@@ -212,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-4">
+                <div class="card mt-4 hvr-float">
                     <img src="images/1.png" class="card-img-top" alt="...">
                     <div class="price-tag rounded-pill text-center small">
                         <i class="fas fa-rupee-sign"></i>
@@ -232,7 +235,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-4">
+                <div class="card mt-4 hvr-float">
                     <img src="images/1.png" class="card-img-top" alt="...">
                     <div class="price-tag rounded-pill text-center small">
                         <i class="fas fa-rupee-sign"></i>
@@ -252,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-4">
+                <div class="card mt-4 hvr-float">
                     <img src="images/1.png" class="card-img-top" alt="...">
                     <div class="price-tag rounded-pill text-center small">
                         <i class="fas fa-rupee-sign"></i>
@@ -272,7 +275,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-4">
+                <div class="card mt-4 hvr-float">
                     <img src="images/1.png" class="card-img-top" alt="...">
                     <div class="price-tag rounded-pill text-center small">
                         <i class="fas fa-rupee-sign"></i>
@@ -292,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mt-4">
+                <div class="card mt-4 hvr-float">
                     <img src="images/1.png" class="card-img-top" alt="...">
                     <div class="price-tag rounded-pill text-center small">
                         <i class="fas fa-rupee-sign"></i>
@@ -326,11 +329,12 @@
 
 
     <div id="display-video" class="display-video">
-        <div class="container  h-100 ">
+        <div class="container black-opacity  h-100 ">
             <div class="row justify-content-center align-items-center  h-100">
                 <div class="row flex-column">
                     <p class="video-text display-3 text-center text-white">Enjoy Video</p>
-                    <div class="play-button rounded-circle align-self-center">
+                    <div class="play-button rounded-circle align-self-center animate__animated animate__pulse animate__infinite"
+                        data-toggle="tooltip" data-placement="left" title="Click to play!">
                         <div class="row justify-content-center align-items-center h-100">
                             <span style="font-size: 20px;"> <i class="fas fa-play">
 
